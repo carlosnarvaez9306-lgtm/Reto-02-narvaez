@@ -45,7 +45,6 @@ Para `msg-006`, la demo confirma explícitamente valor 0 y fecha fin 2027-08-31,
 
 ## Variables de entorno
 
-* `OPENAI_API_KEY`: clave de acceso al proveedor del modelo.
 * `OPENAI_MODEL`: modelo utilizado por el agente.
 * `PORT`: puerto HTTP de la aplicación.
 * `MAX_AGENT_ITERATIONS`: límite de iteraciones del agente.
@@ -68,10 +67,6 @@ La clave del proveedor solo se lee desde el backend mediante `OPENAI_API_KEY`. N
 
 **Link local:** http://localhost:3000
 
-**Access key:** No aplica.
-
-Si se utiliza un despliegue público para la defensa, el link de prueba debe reemplazarse por la URL correspondiente.
-
 ## Nota de despliegue
 
-Para una defensa remota, se puede desplegar el mismo servidor en un proveedor que ejecute Bun. La aplicación es independiente de Periferia y utiliza únicamente los fixtures entregados.
+Para una defensa remota, se puede desplegar el mismo servidor en un proveedor que ejecute Bun.
