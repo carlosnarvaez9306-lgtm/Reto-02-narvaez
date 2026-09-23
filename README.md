@@ -78,4 +78,3 @@ Si se utiliza un despliegue público para la defensa, el link de prueba debe ree
 ## Nota de despliegue
 
 Para una defensa remota, se puede desplegar el mismo servidor en un proveedor que ejecute Bun. La aplicación es independiente de Periferia y utiliza únicamente los fixtures entregados.
-pendiente de Periferia y usa únicamente los fixtures entregados.
