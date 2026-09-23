@@ -13,9 +13,6 @@ Solución en TypeScript + Bun con frontend HTML, backend HTTP y herramientas tip
 bun install
 cp .env.example .env
 ```
-
-Completa `OPENAI_API_KEY` en `.env`.
-
 ## Demo local
 
 La demo es determinista y no necesita una clave de proveedor:
